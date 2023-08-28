@@ -1,0 +1,6 @@
+framework module Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests {
+  umbrella header "Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

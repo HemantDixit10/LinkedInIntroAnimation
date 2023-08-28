@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E14BFA94BFE8EC3D9A65B7B /* Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F00474D327A3E4A3D072593 /* Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework */; };
+		3FE43859B2FA63A8BE3AE010 /* Pods_LinkedInIntroAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A64DFEE623346B81137AD88 /* Pods_LinkedInIntroAnimation.framework */; };
+		5295696A2A98B5360045D19B /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529569692A98B5360045D19B /* IntroViewModel.swift */; };
+		70796B152A7B75FA008CD697 /* LinkedInIntroAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70796B142A7B75FA008CD697 /* LinkedInIntroAnimationApp.swift */; };
+		70796B192A7B75FB008CD697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70796B182A7B75FB008CD697 /* Assets.xcassets */; };
+		70796B1C2A7B75FB008CD697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70796B1B2A7B75FB008CD697 /* Preview Assets.xcassets */; };
+		70796B262A7B75FC008CD697 /* LinkedInIntroAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70796B252A7B75FC008CD697 /* LinkedInIntroAnimationTests.swift */; };
+		70796B302A7B75FC008CD697 /* LinkedInIntroAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70796B2F2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.swift */; };
+		70796B322A7B75FC008CD697 /* LinkedInIntroAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70796B312A7B75FC008CD697 /* LinkedInIntroAnimationUITestsLaunchTests.swift */; };
+		70796B3F2A7B79EF008CD697 /* IntroScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70796B3E2A7B79EF008CD697 /* IntroScreenView.swift */; };
+		70DA7B8A2A7D01E2008DB370 /* IntroductionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA7B892A7D01E2008DB370 /* IntroductionPageView.swift */; };
+		992FFCD78616D8071550B831 /* Pods_LinkedInIntroAnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FAE419EFCE6F7144625593 /* Pods_LinkedInIntroAnimationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70796B222A7B75FC008CD697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70796B092A7B75FA008CD697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70796B102A7B75FA008CD697;
+			remoteInfo = LinkedInIntroAnimation;
+		};
+		70796B2C2A7B75FC008CD697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70796B092A7B75FA008CD697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70796B102A7B75FA008CD697;
+			remoteInfo = LinkedInIntroAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AEA121599882279C5462AF /* Pods-LinkedInIntroAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimation.release.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimation/Pods-LinkedInIntroAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		143D63F64399150C6A308BAA /* Pods-LinkedInIntroAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimationTests/Pods-LinkedInIntroAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2710C87153092CB13E300D96 /* Pods-LinkedInIntroAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimationTests/Pods-LinkedInIntroAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		30FAE419EFCE6F7144625593 /* Pods_LinkedInIntroAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedInIntroAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529569692A98B5360045D19B /* IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewModel.swift; sourceTree = "<group>"; };
+		6A64DFEE623346B81137AD88 /* Pods_LinkedInIntroAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedInIntroAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70796B112A7B75FA008CD697 /* LinkedInIntroAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInIntroAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70796B142A7B75FA008CD697 /* LinkedInIntroAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInIntroAnimationApp.swift; sourceTree = "<group>"; };
+		70796B182A7B75FB008CD697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70796B1B2A7B75FB008CD697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70796B212A7B75FC008CD697 /* LinkedInIntroAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInIntroAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70796B252A7B75FC008CD697 /* LinkedInIntroAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInIntroAnimationTests.swift; sourceTree = "<group>"; };
+		70796B2B2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInIntroAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70796B2F2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInIntroAnimationUITests.swift; sourceTree = "<group>"; };
+		70796B312A7B75FC008CD697 /* LinkedInIntroAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInIntroAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70796B3E2A7B79EF008CD697 /* IntroScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenView.swift; sourceTree = "<group>"; };
+		70DA7B892A7D01E2008DB370 /* IntroductionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionPageView.swift; sourceTree = "<group>"; };
+		70DA7B8B2A7D027C008DB370 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F00474D327A3E4A3D072593 /* Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B0409204720636239A8E72 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests/Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0268FC1C0587CE51D83762F /* Pods-LinkedInIntroAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimation.debug.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimation/Pods-LinkedInIntroAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF311F95DF23D244E31EF57 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests/Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70796B0E2A7B75FA008CD697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE43859B2FA63A8BE3AE010 /* Pods_LinkedInIntroAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B1E2A7B75FC008CD697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992FFCD78616D8071550B831 /* Pods_LinkedInIntroAnimationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B282A7B75FC008CD697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14BFA94BFE8EC3D9A65B7B /* Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE5B57C553D9A2EF9699860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0268FC1C0587CE51D83762F /* Pods-LinkedInIntroAnimation.debug.xcconfig */,
+				04AEA121599882279C5462AF /* Pods-LinkedInIntroAnimation.release.xcconfig */,
+				FFF311F95DF23D244E31EF57 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.debug.xcconfig */,
+				A5B0409204720636239A8E72 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.release.xcconfig */,
+				143D63F64399150C6A308BAA /* Pods-LinkedInIntroAnimationTests.debug.xcconfig */,
+				2710C87153092CB13E300D96 /* Pods-LinkedInIntroAnimationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70796B082A7B75FA008CD697 = {
+			isa = PBXGroup;
+			children = (
+				70DA7B8B2A7D027C008DB370 /* README.md */,
+				70796B132A7B75FA008CD697 /* LinkedInIntroAnimation */,
+				70796B242A7B75FC008CD697 /* LinkedInIntroAnimationTests */,
+				70796B2E2A7B75FC008CD697 /* LinkedInIntroAnimationUITests */,
+				70796B122A7B75FA008CD697 /* Products */,
+				3EE5B57C553D9A2EF9699860 /* Pods */,
+				917F08D0E0BCDAEE30B72E74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70796B122A7B75FA008CD697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70796B112A7B75FA008CD697 /* LinkedInIntroAnimation.app */,
+				70796B212A7B75FC008CD697 /* LinkedInIntroAnimationTests.xctest */,
+				70796B2B2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70796B132A7B75FA008CD697 /* LinkedInIntroAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				70796B142A7B75FA008CD697 /* LinkedInIntroAnimationApp.swift */,
+				70796B3E2A7B79EF008CD697 /* IntroScreenView.swift */,
+				529569692A98B5360045D19B /* IntroViewModel.swift */,
+				70DA7B892A7D01E2008DB370 /* IntroductionPageView.swift */,
+				70796B182A7B75FB008CD697 /* Assets.xcassets */,
+				70796B1A2A7B75FB008CD697 /* Preview Content */,
+			);
+			path = LinkedInIntroAnimation;
+			sourceTree = "<group>";
+		};
+		70796B1A2A7B75FB008CD697 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70796B1B2A7B75FB008CD697 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70796B242A7B75FC008CD697 /* LinkedInIntroAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				70796B252A7B75FC008CD697 /* LinkedInIntroAnimationTests.swift */,
+			);
+			path = LinkedInIntroAnimationTests;
+			sourceTree = "<group>";
+		};
+		70796B2E2A7B75FC008CD697 /* LinkedInIntroAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70796B2F2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.swift */,
+				70796B312A7B75FC008CD697 /* LinkedInIntroAnimationUITestsLaunchTests.swift */,
+			);
+			path = LinkedInIntroAnimationUITests;
+			sourceTree = "<group>";
+		};
+		917F08D0E0BCDAEE30B72E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A64DFEE623346B81137AD88 /* Pods_LinkedInIntroAnimation.framework */,
+				7F00474D327A3E4A3D072593 /* Pods_LinkedInIntroAnimation_LinkedInIntroAnimationUITests.framework */,
+				30FAE419EFCE6F7144625593 /* Pods_LinkedInIntroAnimationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70796B102A7B75FA008CD697 /* LinkedInIntroAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70796B352A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimation" */;
+			buildPhases = (
+				F3D413562B3A3EB8F478CACE /* [CP] Check Pods Manifest.lock */,
+				70796B0D2A7B75FA008CD697 /* Sources */,
+				70796B0E2A7B75FA008CD697 /* Frameworks */,
+				70796B0F2A7B75FA008CD697 /* Resources */,
+				70DA7B912A7D26AB008DB370 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInIntroAnimation;
+			productName = LinkedInIntroAnimation;
+			productReference = 70796B112A7B75FA008CD697 /* LinkedInIntroAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70796B202A7B75FC008CD697 /* LinkedInIntroAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70796B382A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimationTests" */;
+			buildPhases = (
+				C30683A29E2853791CB05B7D /* [CP] Check Pods Manifest.lock */,
+				70796B1D2A7B75FC008CD697 /* Sources */,
+				70796B1E2A7B75FC008CD697 /* Frameworks */,
+				70796B1F2A7B75FC008CD697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70796B232A7B75FC008CD697 /* PBXTargetDependency */,
+			);
+			name = LinkedInIntroAnimationTests;
+			productName = LinkedInIntroAnimationTests;
+			productReference = 70796B212A7B75FC008CD697 /* LinkedInIntroAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70796B2A2A7B75FC008CD697 /* LinkedInIntroAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70796B3B2A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimationUITests" */;
+			buildPhases = (
+				4E58ED767575E5A15DB90954 /* [CP] Check Pods Manifest.lock */,
+				70796B272A7B75FC008CD697 /* Sources */,
+				70796B282A7B75FC008CD697 /* Frameworks */,
+				70796B292A7B75FC008CD697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70796B2D2A7B75FC008CD697 /* PBXTargetDependency */,
+			);
+			name = LinkedInIntroAnimationUITests;
+			productName = LinkedInIntroAnimationUITests;
+			productReference = 70796B2B2A7B75FC008CD697 /* LinkedInIntroAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70796B092A7B75FA008CD697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					70796B102A7B75FA008CD697 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					70796B202A7B75FC008CD697 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 70796B102A7B75FA008CD697;
+					};
+					70796B2A2A7B75FC008CD697 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 70796B102A7B75FA008CD697;
+					};
+				};
+			};
+			buildConfigurationList = 70796B0C2A7B75FA008CD697 /* Build configuration list for PBXProject "LinkedInIntroAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70796B082A7B75FA008CD697;
+			productRefGroup = 70796B122A7B75FA008CD697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70796B102A7B75FA008CD697 /* LinkedInIntroAnimation */,
+				70796B202A7B75FC008CD697 /* LinkedInIntroAnimationTests */,
+				70796B2A2A7B75FC008CD697 /* LinkedInIntroAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70796B0F2A7B75FA008CD697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70796B1C2A7B75FB008CD697 /* Preview Assets.xcassets in Resources */,
+				70796B192A7B75FB008CD697 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B1F2A7B75FC008CD697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B292A7B75FC008CD697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E58ED767575E5A15DB90954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DA7B912A7D26AB008DB370 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		C30683A29E2853791CB05B7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedInIntroAnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D413562B3A3EB8F478CACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedInIntroAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70796B0D2A7B75FA008CD697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70796B3F2A7B79EF008CD697 /* IntroScreenView.swift in Sources */,
+				70796B152A7B75FA008CD697 /* LinkedInIntroAnimationApp.swift in Sources */,
+				70DA7B8A2A7D01E2008DB370 /* IntroductionPageView.swift in Sources */,
+				5295696A2A98B5360045D19B /* IntroViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B1D2A7B75FC008CD697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70796B262A7B75FC008CD697 /* LinkedInIntroAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70796B272A7B75FC008CD697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70796B322A7B75FC008CD697 /* LinkedInIntroAnimationUITestsLaunchTests.swift in Sources */,
+				70796B302A7B75FC008CD697 /* LinkedInIntroAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70796B232A7B75FC008CD697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70796B102A7B75FA008CD697 /* LinkedInIntroAnimation */;
+			targetProxy = 70796B222A7B75FC008CD697 /* PBXContainerItemProxy */;
+		};
+		70796B2D2A7B75FC008CD697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70796B102A7B75FA008CD697 /* LinkedInIntroAnimation */;
+			targetProxy = 70796B2C2A7B75FC008CD697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70796B332A7B75FC008CD697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70796B342A7B75FC008CD697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70796B362A7B75FC008CD697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0268FC1C0587CE51D83762F /* Pods-LinkedInIntroAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInIntroAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70796B372A7B75FC008CD697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AEA121599882279C5462AF /* Pods-LinkedInIntroAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInIntroAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70796B392A7B75FC008CD697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143D63F64399150C6A308BAA /* Pods-LinkedInIntroAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInIntroAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkedInIntroAnimation";
+			};
+			name = Debug;
+		};
+		70796B3A2A7B75FC008CD697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2710C87153092CB13E300D96 /* Pods-LinkedInIntroAnimationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInIntroAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkedInIntroAnimation";
+			};
+			name = Release;
+		};
+		70796B3C2A7B75FC008CD697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF311F95DF23D244E31EF57 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInIntroAnimation;
+			};
+			name = Debug;
+		};
+		70796B3D2A7B75FC008CD697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B0409204720636239A8E72 /* Pods-LinkedInIntroAnimation-LinkedInIntroAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristateTechnology.LinkedInIntroAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInIntroAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70796B0C2A7B75FA008CD697 /* Build configuration list for PBXProject "LinkedInIntroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70796B332A7B75FC008CD697 /* Debug */,
+				70796B342A7B75FC008CD697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70796B352A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70796B362A7B75FC008CD697 /* Debug */,
+				70796B372A7B75FC008CD697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70796B382A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70796B392A7B75FC008CD697 /* Debug */,
+				70796B3A2A7B75FC008CD697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70796B3B2A7B75FC008CD697 /* Build configuration list for PBXNativeTarget "LinkedInIntroAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70796B3C2A7B75FC008CD697 /* Debug */,
+				70796B3D2A7B75FC008CD697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70796B092A7B75FA008CD697 /* Project object */;
+}
